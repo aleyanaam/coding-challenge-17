@@ -1,10 +1,10 @@
 // Task 1
-import React from "react"; // Import React library
-import Gallery from "./Gallery.jsx"; // Import Gallery component
-import './App.css'; // Import app CSS for styling
+import React from "react"; //Imports the React library
+import Gallery from "./Gallery.jsx"; //Imports the Gallery 
+import './App.css'; 
 
-function App() { // Define App component
-    return ( // Return header and Gallery component HTML
+function App() { 
+    return ( 
         <div>
             <h1>The Tour Comparison App</h1>
             <Gallery />
@@ -12,4 +12,4 @@ function App() { // Define App component
     );
 }
 
-export default App; // Export App as default component
+export default App;
